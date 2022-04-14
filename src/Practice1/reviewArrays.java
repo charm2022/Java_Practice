@@ -1,3 +1,5 @@
+package Practice1;
+
 import java.util.Arrays;
 
 public class reviewArrays {
@@ -12,9 +14,7 @@ public class reviewArrays {
             if(myList[i] > max) {
                 max = myList[i];
             }
-            System.out.println("the largest number is " + max);
-
-
         }
+        System.out.println("the largest number is " + max);
     }
 }
