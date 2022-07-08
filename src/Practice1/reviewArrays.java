@@ -1,9 +1,19 @@
 package Practice1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class reviewArrays {
     public static void main(String[] args) {
+
+        // turn a String into a charList
+        String word = "hello";
+        List<Character> charList = new ArrayList<>();
+        for (int i = 0; i < word.length(); i++) {
+            charList.add(word.charAt(i));
+        }
+        System.out.println(charList); //output [h,e,l,l,o]
 
         // find the largest number
         double[] myList = {1.9, 11.3, 3.4, 2.9, 3.5, 4.6, 9.8, 1.4, 5.7};

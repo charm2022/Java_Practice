@@ -1,4 +1,4 @@
-package src;
+package Practice1;
 
 public class Homework3 {
 

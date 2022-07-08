@@ -1,4 +1,4 @@
-package src;
+package Practice1;
 import java.util.Arrays;
 
 public class Homework4 {
